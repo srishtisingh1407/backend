@@ -7,7 +7,7 @@ app.get('/',(req,res)=> {
 app.get('/sris',(req,res)=>{
     res.send('okay and')
 })
-app.get('/jokes',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
     const jokes =[ //use jason formatter to decode the data given, how to read api formally
         {
             id :1,
